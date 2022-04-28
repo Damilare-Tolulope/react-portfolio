@@ -5,7 +5,7 @@ let resumeData = {
     "whatsapp" : 2348074270190,
     "linkedinId":"Oluwadamilare Ajele",
     "twitter": "@_dee_man",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, visiting friends to learn or simply play games in my free time.",
+    "roleDescription": " I like dabbling in various parts of frontend development and like to learn about new technologies, visiting friends to learn or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"phone",
@@ -38,9 +38,9 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am self taught Frontend Developer vast in technologies like HTML/CSS, JavaScript, Bootstrap, ReactJs, TypeScript, and currently driving to become a Full Stack Engineer with various technologies. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I am self taught Frontend Developer vast in technologies like HTML/CSS, JavaScript, Bootstrap, ReactJs, TypeScript, and currently driving to become a Full Stack Engineer with various technologies. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them. I love and have a strong passion for coding, solving problems and collaborating with friends and partners to find solutions. I'm interested in learning new technologies as well as hoping to be that cool guy behind the bass guitar😉.",
     "address":"Nigeria",
-    "website":"https://Ajdee.netlify.app",
+    "website":"https://dareajele.netlify.app",
     "education":[
       {
         "UniversityName":"Federal University of Technology, Akure",
@@ -49,29 +49,43 @@ let resumeData = {
         "YearOfPassing":"2023",
         "Achievements":""
       },
-      // {
-      //   "UniversityName":"Some University",
-      //   "specialization":"Some specialization",
-      //   "MonthOfPassing":"Jan",
-      //   "YearOfPassing":"2018",
-      //   "Achievements":"Some Achievements"
-      // }
+      {
+        "UniversityName":"FreeCodeCamp",
+        "specialization":"Backend technologies and API services",
+        "MonthOfPassing":"Jan",
+        "YearOfPassing":"2022",
+        "Achievements":""
+      }
     ],
     "work":[
       {
         "CompanyName":"Digit Technologies",
         "specialization":"Frontend Developer",
-        "MonthOfLeaving":"",
-        "YearOfLeaving":"",
+        "MonthOfLeaving":"August",
+        "YearOfLeaving":"2020",
         "Achievements":"Transforming UI components into reuseable components"
       },
       {
         "CompanyName":"Oluadepe Farms",
         "specialization":"React Developer",
-        "MonthOfLeaving":"Feb",
+        "MonthOfLeaving":"December",
+        "YearOfLeaving":"2021",
+        "Achievements":"Built reuseable components with Reactjs. Mentored and shared ideas with other developers"
+      },
+      {
+        "CompanyName":"Sidehustle Internship",
+        "specialization":"React Developer",
+        "MonthOfLeaving":"Nov",
+        "YearOfLeaving":"2021",
+        "Achievements":"Collaborated with other interns and learnt more about reactjs and remote collaborations"
+      },
+      {
+        "CompanyName":"Progate X DevCareers Scholarship",
+        "specialization":"Web Developer",
+        "MonthOfLeaving":"January",
         "YearOfLeaving":"2022",
-        "Achievements":"Built reuseable components. Mentored and shared ideas with other developers"
-      }
+        "Achievements":"Certified by Progate as a web developer"
+      },
     ],
     "skillsDescription":"Here are my proficient skills",
     "skills":[
@@ -109,24 +123,24 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Pes Convention",
-        "description":"A ",
-        "imgurl":"images/portfolio/phone.jpg"
+        "description":"A Party - Games - Fun Reload program website",
+        "imgurl":"images/pc.png"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Food order history (In progress)",
+        "description":"A food order history management app",
+        "imgurl":"images/order.png"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
+        "name":"Chat app (In progress)",
+        "description":"Chat app",  
         "imgurl":"images/portfolio/project2.png"
       },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
+      // {
+      //   "name":"project4",
+      //   "description":"mobileapp",
+      //   "imgurl":"images/portfolio/phone.jpg"
+      // }
     ],
     "testimonials":[
       {

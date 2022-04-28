@@ -21,11 +21,18 @@ export default class About extends Component {
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
                 <p className="address">
-                  <span>{resumeData.name}</span>
-                  <br></br>
-                  <span>{resumeData.address}</span>
-                  <br></br>
-                  <span>{resumeData.website}</span>
+                  <ul className="social">
+                  {
+                    resumeData.socialLinks && resumeData.socialLinks.map(item =>{
+                      return(
+                              <li key={item.name}>
+                                <a href={item.url} rel="noopener noreferrer" target="_blank"><i className={item.className}></i></a>
+                              </li>
+                            )
+                          }
+                    )
+                  }
+               </ul>
                 </p>
               </div>
             </div>

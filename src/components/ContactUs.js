@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 export default class ContactUs extends Component {
   render() {
-    let resumeData = this.props.resumeData;
     return (
       <section id="contact">
           <div className="row section-head">
@@ -12,7 +11,7 @@ export default class ContactUs extends Component {
             </div>
           </div>
           <div className="row">
-            <aside className="eigth columns footer-widgets">
+            {/* <aside className="eigth columns footer-widgets">
               <div className="widget">
                 <h4 style={{cursor: "pointer"}} >Whatsapp : {" "}
                   {resumeData.whatsapp}
@@ -23,7 +22,7 @@ export default class ContactUs extends Component {
                   {resumeData.linkedinId}
                 </h4>
               </div>
-            </aside>
+            </aside> */}
           </div>
         </section>
         );
