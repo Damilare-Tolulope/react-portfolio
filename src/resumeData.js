@@ -134,7 +134,7 @@ let resumeData = {
       {
         "name":"Chat app (In progress)",
         "description":"Chat app",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/sample-image.jpg"
       },
       // {
       //   "name":"project4",
